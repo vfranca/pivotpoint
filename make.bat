@@ -8,7 +8,7 @@ if "%1" == "" (
 
 if "%1" == "-h" ( echo install)
 if "%1" == "install" (
-	pip install --upgrade dist/pivot_point-0.1.0.tar.gz
+	pip install .
 	goto :EOF
 )
 
