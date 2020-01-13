@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 import unittest
 from click.testing import CliRunner
-from pp import pp
-from pp import cli
+from pivotpoint import pp
+from pivotpoint import cli
 
 
 class TestPivotPoint(unittest.TestCase):

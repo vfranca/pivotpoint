@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from pp import conf
+from pivotpoint import conf
 
 
 def pp(h, l, c):
