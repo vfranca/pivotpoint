@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pp"
+version = "0.2.0"
+description = "Utilitario de linha de comando para calcular o pivot point"
+authors = ["Valmir Franca <vfranca3@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/vfranca/pp"
+keywords = ["trading", "pivot point"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "\b"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.3.2"
+black = "^19.10b0"
+
+[tool.poetry.scripts]
+pp = "pp.cli:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

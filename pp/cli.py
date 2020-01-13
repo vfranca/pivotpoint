@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import sys
 import click
-from pivot_point import helpers
+from pp import helpers
 
 
 @click.command()
