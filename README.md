@@ -1,11 +1,11 @@
 # Pivot Point
 
-Utilitário de linha de comando para calcular o pivot point.
+Utilitário de linha de comando para calcular o ponto pivô.
 
 ## Instalação
 
 ```console
-pip install pp
+pip install pivotpoint
 ```
 
 ## Uso
